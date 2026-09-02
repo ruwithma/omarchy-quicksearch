@@ -1,0 +1,58 @@
+# Qt / QML compilation cache and generated files
+*.qmlc
+*.jsc
+.qmake.stash
+.qmake.cache
+qmlcache/
+.rcc/
+*.autosave
+*~
+*.swp
+*.swo
+
+# Build directories and binaries
+build/
+build-*/
+bin/
+lib/
+*.o
+*.obj
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+
+# CMake & Make artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.kate-swp
+.fleet/
+
+# OS / File Manager artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+*.directory
+
+# Logs and Crash Dumps
+*.log
+*.dmp
+*.core
+
+# Local environment & secret overrides
+.env
+.env.local
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class

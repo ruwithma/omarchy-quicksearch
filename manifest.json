@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "ruwithma.quicksearch",
+  "name": "Quick Search",
+  "version": "1.3.0",
+  "author": "ruwithma",
+  "license": "MIT",
+  "description": "Floating spotlight search bar with live autocomplete, pop-in browser peek, GUI engine picker, multi-engine bangs, and quick calculations",
+  "kinds": [
+    "overlay"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "QuickSearch.qml"
+  }
+}
